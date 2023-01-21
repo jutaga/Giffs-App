@@ -1,0 +1,35 @@
+Generar modulos desde la consola
+-ng generate module dbz
+-ng g m nombreModulo
+
+Generar componente desde la consola
+-ng g c modulo/nombre
+
+Generar archivos de produccion
+-ng build --configuration production
+
+Crear servicios
+-ng g s modulo/carpetaNueva/nombreServicio --skip-tests
+
+
+1-modulo
+-crear el .module.ts
+ng g m nombreModulo -se crea en el app
+
+2- crear el component
+.component.ts
+ng g c modulo/nombre --skip-tests -s
+
+3- exportar el modulo
+
+4- importar el .module.ts dentro del app.module.ts
+
+5- llamar el modulo en el app.component.html
+
+apikey de https://developers.giphy.com/explorer
+XyJNHvaxsYrAnwE9RNs8klpF0C65ZAhi
+
+Desplegar el build de produccion
+1- cd en la carpeta
+2- ng build --configuration production
+3 - crea el dist, este es el que se sube a netlify
